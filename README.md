@@ -1,8 +1,8 @@
-# Fuzzie
+# SyncWork
 
-![Fuzzie Banner](public/temp-banner.png)
+![SyncWork Banner](public/temp-banner.png)
 
-Fuzzie is a Next.js automation platform with authentication, workflow management, billing, and third-party integrations.
+SyncWork is a Next.js automation platform with authentication, workflow management, billing, and third-party integrations.
 
 ## Tech Stack
 
@@ -26,7 +26,7 @@ Before running or deploying, make sure you have:
 
 ```bash
 git clone <your-repository-url>
-cd fuzzie-production-main
+cd SyncWork-production-main
 npm install
 ```
 
@@ -55,7 +55,7 @@ Fill these first:
 Example DATABASE_URL:
 
 ```env
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/fuzzie?schema=public
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/SyncWork?schema=public
 ```
 
 ### Optional integration variables
